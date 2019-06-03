@@ -97,15 +97,14 @@ GeometryBuffer.cs (code blocks starts at line 319) ...
             }
         }
 ----
-==========
-Other changes
-==========
+
+# Other changes
 PyriteDemoClient/Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs
-References to now-unsupported platforms to build to removed
+- References to now-unsupported platforms to build to removed
 
 PyriteDemoClient/Assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs
-Changed line 62 from:
-if (!((r is TrailRenderer) || (r is ParticleRenderer) || (r is ParticleSystemRenderer)))
-to:
-if (!((r is TrailRenderer) || (r is ParticleSystemRenderer) || (r is ParticleSystemRenderer)))
-per changes to naming conventions for particle system classes
+- Changed line 62 from:
+- if (!((r is TrailRenderer) || (r is ParticleRenderer) || (r is ParticleSystemRenderer)))
+- to:
+- if (!((r is TrailRenderer) || (r is ParticleSystemRenderer) || (r is ParticleSystemRenderer)))
+- per changes to naming conventions for particle system classes
