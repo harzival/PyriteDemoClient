@@ -5,8 +5,8 @@ Demo client application for [Pyrite3D](https://github.com/PyriteServer/PyriteSer
 #License
 Pyrite Demo Client source code is public under [MIT License](https://github.com/PyriteServer/PyriteDemoClient/blob/master/LICENSE).
 
-# Updated to work with Unity 2018-2019 releases ]
-==========
+- Updated to work with Unity 2018-2019 releases
+
 # Main change to this repository and why
 
 
